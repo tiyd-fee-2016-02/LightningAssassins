@@ -1,1 +1,57 @@
+/**********SAME STYLES*********/
 
+html {
+  font-size: 1em;
+}
+
+body {
+  border: 1px solid red;
+  min-width: 375px;
+  max-width: 375px;
+}
+
+.headerButton {
+  text-align: center;
+  height: 40px;
+}
+
+.footerButton {
+  border: 1px solid black;
+  height: 50px;
+}
+
+
+/*******END SAME STYLES*******/
+
+
+/*NEW APPT STYLES*/
+
+/*container*/
+/*.new-appt-container {
+  min-width: 375px;
+  max-width: 375px;
+}*/
+
+/*all of the input boxes*/
+.appt-form {
+  display: block;
+  height: 30px;
+  width: 300px;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-radius: 3px;
+  color: #C0C0C0;
+}
+
+/*labels on top of the boxes*/
+.label {
+    /*display: block;*/
+    color: #C0C0C0;
+}
+
+hr {
+  color: #C0C0C0;
+  width: 350px;
+}
+
+/*END NEW APPT STYLES*/
