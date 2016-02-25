@@ -1,1 +1,29 @@
+html {
+  font-size: 1em;
+}
 
+.new-appt-container {
+  width: 100%;
+}
+
+header {
+
+}
+
+.appt-form {
+  display: block;
+  height: 30px;
+  width: 300px;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-radius: 3px;
+  color: #C0C0C0;
+}
+
+.label {
+    color: #C0C0C0;
+}
+
+hr {
+  
+}
