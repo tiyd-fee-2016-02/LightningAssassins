@@ -19,9 +19,9 @@ $('#detail-return-main').on('click', function (){
 });
 
 //SAVE BUTTON ON NEW APPT PAGE REDIRECTS TO MAIN PAGE
-$('#save-new-appointment').on('click', function (){
-  window.location = "main-page.html";
-});
+// $('#save-new-appointment').on('click', function (){
+//   window.location = "main-page.html";
+// });
 
 //SAVE OR DELETE BUTTON ON EDIT APPT PAGE REDIRECTS TO DETAILS PAGE
 $('.footerButtonHalf').on('click', function (){
