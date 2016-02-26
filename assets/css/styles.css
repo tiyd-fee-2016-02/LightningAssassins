@@ -2,6 +2,7 @@
 
 html {
   font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -20,38 +21,70 @@ body {
   height: 50px;
 }
 
-
 /*******END SAME STYLES*******/
-
 
 /*NEW APPT STYLES*/
 
-/*container*/
-/*.new-appt-container {
-  min-width: 375px;
-  max-width: 375px;
-}*/
+.new-appt-style {
+  font-size: 1.5em;
+  color: rgb(133, 133, 133);
+  text-align: left;
+}
 
-/*all of the input boxes*/
-.appt-form {
+.fa-chevron-left {
+  color: rgb(133, 133, 133);
+  margin-left: 10px;
+  padding-right: 2em;
+}
+
+.appt-form { /*all of the input boxes*/
   display: block;
   height: 30px;
-  width: 300px;
+  width: 350px;
   margin-bottom: 1em;
   border-style: solid;
   border-radius: 3px;
   color: #C0C0C0;
+  margin-left: 8px;
+
 }
 
-/*labels on top of the boxes*/
-.label {
-    /*display: block;*/
+.label { /*labels on top of the boxes*/
     color: #C0C0C0;
+    margin-left: 8px;
 }
 
-hr {
+hr { /*gray line*/
   color: #C0C0C0;
+  background-color: #C0C0C0;
   width: 350px;
+  height: 2px;
+  border: none;
+}
+
+#save-new-appointment{
+  background-color: rgb(8, 226, 186)
+}
+
+.save-appointment {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  margin-left: 25%;
+}
+
+.fa-calendar {
+  color: #C0C0C0;
+  position: absolute;
+  margin-left: 290px;
+  margin-top: 2em;
+}
+
+.fa-map-marker {
+  color: #C0C0C0;
+  position: absolute;
+  margin-left: 285px;
+  margin-top: 2em;
 }
 
 /*END NEW APPT STYLES*/
