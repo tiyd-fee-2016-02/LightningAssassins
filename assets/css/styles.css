@@ -1,8 +1,18 @@
 /**********SAME STYLES*********/
 
 html {
-    font-size: 1em;
-    font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    min-width: 375px;
+    max-width: 375px;
+}
+
+.headerButton {
+    font-size: 2em;
+    text-align: center;
 }
 
 .footerButton {
@@ -10,23 +20,16 @@ html {
   height: 50px;
 }
 
-
 /*******END SAME STYLES*******/
 
 /*STYLING FOR HEADER SECTION*/
 
-.headerButton {
-    font-family: 'LachataNormal';
-    font-size: 2em;
-    text-align: center;
-    height: 40px;
-    padding-top: .5em;
-    margin-bottom: .25em;
-}
-
 .titleBar {
     font-family: 'LachataNormal';
     text-align: center;
+    padding-top: .5em;
+    margin-bottom: .25em;
+    height: 40px;
 }
 
 #topBar {
@@ -103,33 +106,109 @@ div.dayDivider > span {
     background-color: white;
 }
 
+
+/* APPT SAME STYLES*/
+
+.label { /*labels on top of the boxes in both forms*/
+    color: #C0C0C0;
+    margin-left: 8px;
+}
+
+.appt-form { /*all of the input boxes in both forms*/
+    display: block;
+    height: 30px;
+    width: 350px;
+    margin-bottom: 1em;
+    border-style: solid;
+    border-radius: 3px;
+    color: #C0C0C0;
+    margin-left: 8px;
+}
+
+.fa-chevron-left { /* left arrow icon in both forms */
+  color: rgb(133, 133, 133);
+  margin-left: 10px;
+  padding-right: 2em;
+}
+
+.fa-calendar { /*same calendar icon in both forms*/
+  color: #C0C0C0;
+  position: absolute;
+  margin-left: 290px;
+  margin-top: 2em;
+}
+
+.fa-map-marker { /*same map marker in both forms*/
+  color: #C0C0C0;
+  position: absolute;
+  margin-left: 285px;
+  margin-top: 2em;
+}
+
+/*END APPT SAME STYLES*/
+
 /*NEW APPT STYLES*/
 
-/*container*/
-
-.new-appt-container {
-  min-width: 375px;
-  max-width: 375px;
+#save-new-appointment{
+  background-color: rgb(8, 226, 186)
 }
 
-/*all of the input boxes*/
-
-.appt-form {
-  display: block;
-  height: 30px;
-  width: 300px;
-  margin-bottom: 1em;
-  border-style: solid;
-  border-radius: 3px;
-  color: #C0C0C0;
+.save-appointment {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  margin-left: 25%;
 }
 
-/*labels on top of the boxes*/
-
-.label {
-    display: block;
-    color: #C0C0C0;
+.new-appt-style {
+  font-size: 1.5em;
+  color: rgb(133, 133, 133);
+  text-align: left;
 }
 
 
-/*END NEW APPT STYLES*/
+/* END APPT STYLES*/
+
+
+/*EDIT APPT STYLES*/
+
+.edit-appt-style {
+  font-size: 1.5em;
+  color: rgb(133, 133, 133);
+  text-align: left;
+}
+
+.footerButtonHalf {
+  padding: none;
+  margin: none;
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+}
+
+
+#edit-save-button{
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  margin-left: 35%;
+}
+
+#edit-delete-button{
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  margin-left: 35%;
+}
+
+
+#delete-edit-appointment{
+  background-color: red;
+  margin-right: -5px;
+}
+
+#save-edit-appointment{
+  background-color: rgb(8, 226, 186);
+}
+
+/*END EDIT APPT STYLES*/
