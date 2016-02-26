@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Edit Appointment</title>
+    <meta name="viewport" content="width=375">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <div class = new-appt-container>
+      <header id = "header-edit-appt" class ="headerButton">
+        <p class = "edit-appt-style"><i id = "back-button-two" class="fa fa-chevron-left"></i>Edit Appointment</p>
+      </header>
+        <hr>
+        <form class = "form-container">
+          <label class = "label" for="title-new-appt">Title</label>
+          <input type="text" class = "appt-form" id="title-edit-appt"/>
+          <hr>
+          <label class = "label" for = "street-new-appt">Street</label>
+          <i class="fa fa-map-marker"></i>
+          <input type="text" class = "appt-form" id="street-edit-appt"/>
+          <label class = "label" for = "city-new-appt">City, State</label>
+          <input type="text" class = "appt-form" id="city-edit-appt"/>
+          <hr>
+          <label class = "label" for = "date-new-appt">Date</label>
+          <i class="fa fa-calendar"></i>
+          <input type="text" class = "appt-form" id="date-edit-appt"/>
+          <hr>
+          <label class = "label" for = "time-new-appt">Time</label>
+          <input type="text" class = "appt-form" id="time-edit-appt"/>
+        </form>
+        <div id="save-edit-appointment" class="footerButton">
+          <a class = "save-appointment" href="">Save Appointment</a>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>
