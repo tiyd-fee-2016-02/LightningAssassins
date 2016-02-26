@@ -62,6 +62,12 @@ input#searchBar {
     height: 2em;
 }
 
+.fa-search {
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 1.35em;
+}
+
 /*STYLING FOR FIRST DAY OF BODY*/
 
 .appointmentGroup:before,
