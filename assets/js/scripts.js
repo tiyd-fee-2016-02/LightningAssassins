@@ -1,3 +1,5 @@
+//-------- PAGE REDIRECTS CODE -------- //
+
 $(function (){
   'use strict';
 
@@ -28,5 +30,7 @@ $('.footerButtonHalf').on('click', function (){
 });
 
 
+
+//-----
 
 });

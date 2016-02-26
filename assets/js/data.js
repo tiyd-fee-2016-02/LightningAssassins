@@ -1,4 +1,4 @@
-//--------LOCAL STORAGE STUFF--------//
+//--------LOCAL STORAGE CODE --------//
 
 $(function (){
   'use strict';
@@ -14,13 +14,15 @@ localStorage.setItem('hello', JSON.stringify(hello));
 // get from local storage
 var printObject = localStorage.getItem('hello');
 
-console.log(printObject);
+// prints object
+// console.log(printObject);
 
+// converts string back to an object
+console.log('hello: ', JSON.parse(printObject));
 
-// console.log('hello: ', JSON.parse(printObject));
-
+// iterates through the object and grabs each key and value pair
 $.each( hello, function( key, value ) {
-  alert( key + ": " + value );
+  // alert( key + ": " + value );
 });
 
 
