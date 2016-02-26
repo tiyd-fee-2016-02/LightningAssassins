@@ -7,5 +7,7 @@ Mike and Nicky
 * When you're done then git add, git commit, git push
 * Don't make changes to the html in the wrong branch
 
-#### Weather Underground API Key ####
-* 876afe8e97f036ff
+#### Weather Underground ####
+
+* API KEY: 876afe8e97f036ff
+* documentation: http://www.wunderground.com/weather/api/d/docs
