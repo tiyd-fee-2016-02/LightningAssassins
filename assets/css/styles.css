@@ -23,44 +23,55 @@ body {
 
 /*******END SAME STYLES*******/
 
-/*NEW APPT STYLES*/
+/* APPT SAME STYLES*/
 
-.new-appt-style {
-  font-size: 1.5em;
-  color: rgb(133, 133, 133);
-  text-align: left;
-}
-
-.fa-chevron-left {
-  color: rgb(133, 133, 133);
-  margin-left: 10px;
-  padding-right: 2em;
-}
-
-.appt-form { /*all of the input boxes*/
-  display: block;
-  height: 30px;
-  width: 350px;
-  margin-bottom: 1em;
-  border-style: solid;
-  border-radius: 3px;
-  color: #C0C0C0;
-  margin-left: 8px;
-
-}
-
-.label { /*labels on top of the boxes*/
+.label { /*labels on top of the boxes in both forms*/
     color: #C0C0C0;
     margin-left: 8px;
 }
 
-hr { /*gray line*/
+.appt-form { /*all of the input boxes in both forms*/
+    display: block;
+    height: 30px;
+    width: 350px;
+    margin-bottom: 1em;
+    border-style: solid;
+    border-radius: 3px;
+    color: #C0C0C0;
+    margin-left: 8px;
+}
+
+hr { /* horizontal lines in both forms */
   color: #C0C0C0;
   background-color: #C0C0C0;
   width: 350px;
   height: 2px;
   border: none;
 }
+
+.fa-chevron-left { /* left arrow icon in both forms */
+  color: rgb(133, 133, 133);
+  margin-left: 10px;
+  padding-right: 2em;
+}
+
+.fa-calendar { /*same calendar icon in both forms*/
+  color: #C0C0C0;
+  position: absolute;
+  margin-left: 290px;
+  margin-top: 2em;
+}
+
+.fa-map-marker { /*same map marker in both forms*/
+  color: #C0C0C0;
+  position: absolute;
+  margin-left: 285px;
+  margin-top: 2em;
+}
+
+/*END APPT SAME STYLES*/
+
+/*NEW APPT STYLES*/
 
 #save-new-appointment{
   background-color: rgb(8, 226, 186)
@@ -73,18 +84,55 @@ hr { /*gray line*/
   margin-left: 25%;
 }
 
-.fa-calendar {
-  color: #C0C0C0;
-  position: absolute;
-  margin-left: 290px;
-  margin-top: 2em;
+.new-appt-style {
+  font-size: 1.5em;
+  color: rgb(133, 133, 133);
+  text-align: left;
 }
 
-.fa-map-marker {
-  color: #C0C0C0;
-  position: absolute;
-  margin-left: 285px;
-  margin-top: 2em;
+
+/* END APPT STYLES*/
+
+
+/*EDIT APPT STYLES*/
+
+.edit-appt-style {
+  font-size: 1.5em;
+  color: rgb(133, 133, 133);
+  text-align: left;
 }
 
-/*END NEW APPT STYLES*/
+.footerButtonHalf {
+  padding: none;
+  margin: none;
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+}
+
+
+#edit-save-button{
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  margin-left: 35%;
+}
+
+#edit-delete-button{
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  margin-left: 35%;
+}
+
+
+#delete-edit-appointment{
+  background-color: red;
+  margin-right: -5px;
+}
+
+#save-edit-appointment{
+  background-color: rgb(8, 226, 186);
+}
+
+/*END EDIT APPT STYLES*/
