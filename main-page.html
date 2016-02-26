@@ -1,37 +1,60 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Appointment / Weather App</title>
-  <meta name="viewport" content="width=375">
-  <link rel="stylesheet" href="assets/css/normalize.css">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-<body>
-    <header id="addAppointment" class="headerButton">
-        Appointments <i class="fa fa-plus"></i>
-    </header>
-    <input type="text" name="searchbar" value="">
-    <ul>
-        <li class="firstBar">
-            <div id="weather1">5pm</div>
-            <div id="appointment1">Meet with Ash</div>
-        </li>
-        <li class="secondBar">
-            <div id="weather2">7pm</div>
-            <div id="appointment2">Dinner with Misty</div>
-        </li>
-        <div class="dayBar">Fri, March 5th</div>
-        <li class="thirdBar">
-            <div id="weather3">12pm</div>
-            <div id="appointment3">Talk to Brock</div>
-        </li>
-    </ul>
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="assets/js/scripts.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.5.1/lodash.js"></script>
-</body>
-</html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Appointment / Weather App</title>
+        <meta name="viewport" content="width=375">
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/la-chata" type="text/css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+    <body>
+        <header class="headerButton">
+            <span class="titleBar">
+                <span id="topBar">Appointments</span>
+                <i id="addAppointmentButton" class="material-icons">add</i>
+            </span>
+        </header>
+        <hr>
+        <div class="mainContainer">
+            <input id="searchBar" style="text-indent:17px;" type="text"/>
+            <div class="appointmentGroup">
+                <div class="leftBox">
+                    <aside class="leftBoxTop">TIME</aside>
+                    <aside class="leftBoxBottom">WEATHER</aside>
+                </div>
+                <div class="rightBox">
+                    <section class="rightBoxTop">EVENT</section>
+                    <section class="rightBoxBottom">LOCATION</section>
+                </div>
+            </div>
+            <div class="appointmentGroup">
+                <div class="leftBox">
+                    <aside class="leftBoxTop">TIME</aside>
+                    <aside class="leftBoxBottom">WEATHER</aside>
+                </div>
+                <div class="rightBox">
+                    <section class="rightBoxTop">EVENT</section>
+                    <section class="rightBoxBottom">LOCATION</section>
+                </div>
+            </div>
+            <div class="dayDivider" style="width: 100%; height: .5em; border-bottom: 1px solid black; text-align: center; padding-top: 1.5em;"><span style="font-size: 1em; background-color: white; padding: 0 8px 0 8px;"> DAY, MONTH </span>
+            </div>
+            <div class="appointmentGroup">
+                <div class="leftBox">
+                    <aside class="leftBoxTop">TIME</aside>
+                    <aside class="leftBoxBottom">WEATHER</aside>
+                </div>
+                <div class="rightBox">
+                    <section class="rightBoxTop">EVENT</section>
+                    <section class="rightBoxBottom">LOCATION</section>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.5.1/lodash.js"></script>
+      </body>
+  </html>

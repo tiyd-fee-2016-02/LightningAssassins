@@ -1,18 +1,8 @@
 /**********SAME STYLES*********/
 
 html {
-  font-size: 1em;
-}
-
-body {
-  border: 1px solid red;
-  min-width: 375px;
-  max-width: 375px;
-}
-
-.headerButton {
-  text-align: center;
-  height: 40px;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .footerButton {
@@ -23,16 +13,107 @@ body {
 
 /*******END SAME STYLES*******/
 
+/*STYLING FOR HEADER SECTION*/
+
+.headerButton {
+    font-family: 'LachataNormal';
+    font-size: 2em;
+    text-align: center;
+    height: 40px;
+    padding-top: .5em;
+    margin-bottom: .25em;
+}
+
+.titleBar {
+    font-family: 'LachataNormal';
+    text-align: center;
+}
+
+#topBar {
+    margin: 0 1.5em 0 2em;
+    align-content: center;
+}
+
+#addAppointmentButton {
+    display: inline-block;
+    font-size: 1.2em;
+    vertical-align: -5px;
+}
+
+hr {
+    margin: 0 .5em 0 .5em;
+    color: #C0C0C0;
+}
+
+/*STYLING FOR EVERYTHING BELOW HEADER ON MAIN PAGE*/
+
+.mainContainer {
+    padding: 0 1em 3em 1em;
+}
+
+/*STYLING FOR SEARCH BAR*/
+
+input#searchBar {
+    width: 99.5%;
+    margin-top: .7em;
+    height: 2em;
+}
+
+/*STYLING FOR FIRST DAY OF BODY*/
+
+.appointmentGroup:before,
+.appointmentGroup:after {
+    content: "";
+    display: table;
+}
+.appointmentGroup:after {
+    clear: both;
+}
+.appointmentGroup {
+    clear: both;
+    *zoom: 1;
+    margin-top: 3em;
+    padding: .5em;
+    border: 1px solid black;
+}
+.rightBox {
+    float: right;
+    width: 63%;
+    border: 1px solid red;
+}
+.leftBox {
+    float: left;
+    width: 30%;
+    border: 1px solid red;
+}
+
+/*STYLING FOR DIVIDER*/
+
+div.dayDivider {
+    width: 100%;
+    height: .5em;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-top: 1.5em;
+    margin-top: 1em;
+}
+
+div.dayDivider > span {
+    font-size: 1em;
+    background-color: white;
+}
 
 /*NEW APPT STYLES*/
 
 /*container*/
-/*.new-appt-container {
+
+.new-appt-container {
   min-width: 375px;
   max-width: 375px;
-}*/
+}
 
 /*all of the input boxes*/
+
 .appt-form {
   display: block;
   height: 30px;
@@ -44,14 +125,11 @@ body {
 }
 
 /*labels on top of the boxes*/
+
 .label {
-    /*display: block;*/
+    display: block;
     color: #C0C0C0;
 }
 
-hr {
-  color: #C0C0C0;
-  width: 350px;
-}
 
 /*END NEW APPT STYLES*/
