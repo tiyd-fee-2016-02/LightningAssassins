@@ -13,24 +13,30 @@ $('#back-button-two').on('click', function (){
   window.location = "detail.html";
 });
 
-//LEFT ARROW ON DETAIL PAGE REDIRECTS TO NEW-APPT PAGE
-// $('').on('click', function (){
-//   window.location = "new-appt.html";
-// });
+//PLUS BUTTON ON DETAIL PAGE REDIRECTS TO MAIN PAGE
+$('#detail-return-main').on('click', function (){
+  window.location = "main-page.html";
+});
 
 //SAVE BUTTON ON NEW APPT PAGE REDIRECTS TO MAIN PAGE
 $('#save-new-appointment').on('click', function (){
   window.location = "main-page.html";
 });
 
-
 //SAVE OR DELETE BUTTON ON EDIT APPT PAGE REDIRECTS TO DETAILS PAGE
 $('.footerButtonHalf').on('click', function (){
   window.location = "detail.html";
 });
 
+//EDIT BUTTON ON DETAILS PAGE REDIRECTS TO EDIT-APPT PAGE
+$('#editAppointment').on('click', function (){
+  window.location = "edit-appt.html";
+});
 
+//PLUS BUTTON ON MAIN PAGE REDIRECTS TO NEW-APPT PAGE
+$('#addAppointmentButton').on('click', function (){
+  window.location = "new-appt.html";
+});
 
-//-----
 
 });
