@@ -12,9 +12,9 @@ $('#back-button-two').on('click', function (){
 });
 
 //LEFT ARROW ON DETAIL PAGE REDIRECTS TO NEW-APPT PAGE
-$('').on('click', function (){
-  window.location = "new-appt.html";
-});
+// $('').on('click', function (){
+//   window.location = "new-appt.html";
+// });
 
 //SAVE BUTTON ON NEW APPT PAGE REDIRECTS TO MAIN PAGE
 $('#save-new-appointment').on('click', function (){
