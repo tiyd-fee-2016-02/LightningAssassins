@@ -69,7 +69,29 @@ hr { /* horizontal lines in both forms */
   margin-top: 2em;
 }
 
-/*APPT SAME STYLES*/
+/*END APPT SAME STYLES*/
+
+/*NEW APPT STYLES*/
+
+#save-new-appointment{
+  background-color: rgb(8, 226, 186)
+}
+
+.save-appointment {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  margin-left: 25%;
+}
+
+.new-appt-style {
+  font-size: 1.5em;
+  color: rgb(133, 133, 133);
+  text-align: left;
+}
+
+
+/* END APPT STYLES*/
 
 
 /*EDIT APPT STYLES*/
