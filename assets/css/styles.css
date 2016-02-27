@@ -176,6 +176,58 @@ div.dayDivider > span {
 /* END APPT STYLES*/
 
 
+/*DETAIL VIEW STYLES*/
+
+.returnMain {
+    font-size: 2em;
+    text-align: center;
+    text-align: center;
+    padding-top: .5em;
+    margin-bottom: .25em;
+    height: 40px;
+}
+
+#detailTime {
+    color: rgb(8, 226, 186);
+}
+
+#detailToday {
+
+}
+
+#detailWhere {
+    font-style: italic;
+}
+
+.fa-map-marker {
+    color: rgb(8, 226, 186);
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 0;
+}
+
+.detailWeather {
+    /*clear: both;
+    *zoom: 1;*/
+    margin-top: 3em;
+    border: 1px solid black;
+}
+
+#detailWeatherBox {
+    border: 1px solid black;
+    height: 50px;
+    background-color: #C0C0C0;
+}
+
+#editAppointment {
+  /*border: 1px solid black;*/
+  height: 50px;
+  font-size: 2em;
+  text-align: center;
+  color: white;
+  background-color: rgb(8, 226, 186);
+}
+
 /*EDIT APPT STYLES*/
 
 .edit-appt-style {
