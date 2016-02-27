@@ -262,7 +262,7 @@ div.dayDivider > span {
     font-style: italic;
 }
 
-.fa-map-marker {
+#mapIcon {
     color: rgb(8, 226, 186);
     position: absolute;
     margin-left: 240px;
