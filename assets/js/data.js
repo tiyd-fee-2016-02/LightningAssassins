@@ -27,42 +27,35 @@ $(function (){
 
 //-------FORM SUBMIT CODE---------//
 
+var $saveNewAppointment = $('#save-new-appointment');
+var $allForm = {};
 
-// var $submitForm = $('#save-new-appointment');
-
-// $submitForm.click( function(submit) {
-//   var inputValues = $('.appt-form').val();
-//   $.each(inputValues, function() {
-//       console.log(submit)
-//     });
-// });
-
-// $submitForm.click(function () {
-//       $(':input', '.appt-form').each(function() {
-//           alert(this.name + ': ' + this.value);
-//       });
-//   });
+  $saveNewAppointment.click(function(){
+    $(':input', '.form-container').each(function(){
+      // console.log(this.value);
+    localStorage[$(this).attr('name')] = $(this).val();
+      // console.log(this.value)
+    });
+  });
 
 
-  // if($(".appt-form").val() == '') {
-  //   $('#alert').html("Please complete form");
-  //   $('#alert').fadeIn().delay(1000).fadeOut();
-    // return false;
-//    }
+    // if($(".form-container").val() == '') {
+      // $('#alert').html("Please complete form");
+      // $('#alert').fadeIn().delay(1000).fadeOut();
+        // return false;
+    //  }
+     //add to the main-page
+    //  $('.rightBox').prepend("<div>" + inputValues + "</div>");
+     //delete the values in the current input
+    //  $(".appt-form")[0].reset();
+    //  var appointments = $('.rightBox').html();
+    //   localStorage.setItem('appointments', appointments);
+    //   return false;
 
-   //add to the main-page
-  //  $('.rightBox').prepend("<div>" + inputValues + "</div>");
-   //delete the values in the current input
-  //  $(".appt-form")[0].reset();
-//    var appointments = $('.rightBox').html();
-//    localStorage.setItem('appointments', appointments);
-//    return false;
-// });
-
-//add local storage appointments
-// if(localStorage.getItem('appointments')) {
-// $('.appt-form').html(localStorage.getItem('appointments'));
-// }
+  //add local storage appointments
+  // if(localStorage.getItem('appointments')) {
+  // $('.appt-form').html(localStorage.getItem('appointments'));
+  // }
 
 //clear after 7 days
 
