@@ -38,5 +38,18 @@ $('#addAppointmentButton').on('click', function (){
   window.location = "new-appt.html";
 });
 
+//DELETE BUTTON ON EDIT APPT PAGE TO TRIGGER MODAL
+$("#delete-edit-appt").click (function(){
+  $(".modalContainer").addClass("deleteModal");
+});
+
+$(".cancelDelete").click(function(){
+  $(".modalContainer").removeClass("deleteModal");
+});
+
+$(".confirmDelete").click(function(){
+  window.location = "main-page.html";
+});
+
 
 });
