@@ -24,7 +24,7 @@ $('#detail-return-main').on('click', function (){
 // });
 
 //SAVE OR DELETE BUTTON ON EDIT APPT PAGE REDIRECTS TO DETAILS PAGE
-$('.footerButtonHalf').on('click', function (){
+$('#save-edit-appointment').on('click', function (){
   window.location = "detail.html";
 });
 
@@ -39,15 +39,15 @@ $('#addAppointmentButton').on('click', function (){
 });
 
 //DELETE BUTTON ON EDIT APPT PAGE TO TRIGGER MODAL
-$("#delete-edit-appt").click (function(){
+$('#delete-edit-appointment').click (function(){
   $(".modalContainer").addClass("deleteModal");
 });
 
-$(".cancelDelete").click(function(){
+$('.cancelDelete').click(function(){
   $(".modalContainer").removeClass("deleteModal");
 });
 
-$(".confirmDelete").click(function(){
+$('.confirmDelete').click(function(){
   window.location = "main-page.html";
 });
 
