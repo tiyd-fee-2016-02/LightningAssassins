@@ -340,7 +340,7 @@ p {
   text-align: center;
   font-size: 1.5em;
   font-style: normal;
-  padding: 0 .75em 1em .75em;
+  padding: 0 .75em .25em .75em;
   color: white;
 }
 
@@ -352,10 +352,11 @@ p {
 }
 
 .deleteModal {
-  border: solid 4px black;
+  border: solid 4.5px black;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
-  width: 350px;
+  border-bottom-width: thick;
+  width: 370px;
   background-color: red;
   padding-top: .5em;
   color: white;
@@ -367,13 +368,13 @@ p {
 .confirmDelete, .cancelDelete {
   border-radius: 4px;
   border-style: none;
-  color: white;
-  background: black;
+  color: black;
+  background: #C0C0C0;
   font-weight: bold;
   padding: .75em;
-  width: 9em;
-  margin-left: 1em;
-  margin-bottom: 5em;
+  width: 8em;
+  margin-left: .7em;
+  margin-bottom: 1em;
 }
 
 .confirmDelete {
