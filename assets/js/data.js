@@ -35,13 +35,13 @@ var $saveNewAppointment = $('#save-new-appointment');
       // console.log(this.value);
     localStorage[$(this).attr('name')] = $(this).val();
         var appointment = $(this).val();
-        console.log(data);
+        console.log(appointment);
 
     if(appointment === '') {
       $('#alert').html("Please complete form");
      }
     else {
-     $('.rightBox').prepend("<div>" + data + "</div>");
+     $('.rightBox').prepend("<div>" + appointment + "</div>");
     //  delete the values in the current input
      var appointments = $('.rightBox').html();
       localStorage.setItem('appointment', appointment);
