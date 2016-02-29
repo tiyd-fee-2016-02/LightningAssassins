@@ -11,3 +11,9 @@ Mike and Nicky
 
 * API KEY: 876afe8e97f036ff
 * documentation: http://www.wunderground.com/weather/api/d/docs
+
+### MIKE ###
+
+Did the html and styling for the main-page and detail-page
+Did the delete button modal for the edit-page
+Created a pile of broken JQuery & JSON code in an attempt to put the weather API on the detail-page 
