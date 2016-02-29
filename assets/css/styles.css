@@ -16,7 +16,7 @@ body {
 }
 
 .footerButton {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   height: 50px;
 }
 
@@ -243,11 +243,32 @@ div.dayDivider > span {
 
 .returnMain {
     font-size: 2em;
-    text-align: center;
-    text-align: center;
     padding-top: .5em;
     margin-bottom: .25em;
+    margin-right: 2em;
     height: 40px;
+    color: rgb(133, 133, 133);
+    font-weight: 100;
+}
+
+.mainContainerDetail {
+    padding: 0 1em 1em 1em;
+}
+
+#detail-return-main {
+    margin-left: 0;
+}
+
+#detail-return-main.fa.fa-chevron-left {
+    margin-right: 0;
+    padding-right: 1.25em;
+    margin-left: .5em;
+}
+
+.detailWhen {
+    margin-top: 3em;
+    font-size: 1.5em;
+    margin-left: 1em;
 }
 
 #detailTime {
@@ -255,37 +276,52 @@ div.dayDivider > span {
 }
 
 #detailToday {
-
+    margin-top: 3em;
 }
 
 #detailWhere {
     font-style: italic;
+    font-weight: 100;
+    font-size: 1.4em;
+    padding-top: 2em;
+    margin-left: 1em;
+    position: absolute;
+    color: rgb(133, 133, 133);
 }
 
 #mapIcon {
     color: rgb(8, 226, 186);
     position: absolute;
-    margin-left: 240px;
-    margin-top: 0;
+    margin-top: 2em;
+    margin-left: 300px;
+    font-size: 1.5em;
+}
+
+#detailMap {
+    margin-top: 6em;
+    margin-left: 1.25em;
 }
 
 .detailWeather {
     /*clear: both;
     *zoom: 1;*/
     margin-top: 3em;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 #detailWeatherBox {
-    border: 1px solid black;
-    height: 50px;
-    background-color: #C0C0C0;
+    /*border: 1px solid black;*/
+    height: 65px;
+    margin: 0 1.1em 0 1.1em;
+    font-size: 1em;
+    background-color: rgb(230, 230, 230)
 }
 
 #editAppointment {
   /*border: 1px solid black;*/
   height: 50px;
-  font-size: 2em;
+  font-size: 1.5em;
+  padding-top: .75em;
   text-align: center;
   color: white;
   background-color: rgb(8, 226, 186);
