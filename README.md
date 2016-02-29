@@ -14,6 +14,6 @@ Mike and Nicky
 
 ### MIKE ###
 
-Did the html and styling for the main-page and detail-page
-Did the delete button modal for the edit-page
-Created a pile of broken JQuery & JSON code in an attempt to put the weather API on the detail-page 
+* Did the html and styling for the main-page and detail-page
+* Did the delete button modal for the edit-page
+* Created a pile of broken JQuery & JSON code in an attempt to put the weather API on the detail-page 
