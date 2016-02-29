@@ -178,6 +178,11 @@ div.dayDivider > span {
 
 /* APPT SAME STYLES*/
 
+.form-container{
+  margin-left: 8px;
+}
+
+
 .label { /*labels on top of the boxes in both forms*/
     color: #C0C0C0;
     margin-left: 8px;
@@ -218,12 +223,18 @@ div.dayDivider > span {
 
 /*NEW APPT STYLES*/
 
+#header-new-appt {
+  font-size: 1em;
+}
+
 #save-new-appointment{
-  background-color: rgb(8, 226, 186)
+  background-color: rgb(8, 226, 186);
 }
 
 .save-appointment {
   color: white;
+  border: none;
+  background-color: rgb(8, 226, 186);
   text-decoration: none;
   font-size: 1.3em;
   margin-left: 25%;
