@@ -17,3 +17,8 @@ Mike and Nicky
 * Did the html and styling for the main-page and detail-page
 * Did the delete button modal for the edit-page
 * Created a pile of broken JQuery & JSON code in an attempt to put the weather API on the detail-page 
+
+### NICKY ###
+*Did html and css for new-appt form and edit-appt form
+*Did the js for the page redirects for +, <, save, edit and delete buttons
+*Did the broken js for the localStorage 
