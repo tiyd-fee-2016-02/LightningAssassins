@@ -47,9 +47,9 @@ var $saveNewAppointment = $('#save-new-appointment');
       localStorage.setItem('appointment', appointment);
 }
   //add local storage appointments
-  if(localStorage.getItem('appointment')) {
-  $('.appt-form').html(localStorage.getItem('appointment'));
-  }
+  // if(localStorage.getItem('appointment')) {
+  // $('.appt-form').html(localStorage.getItem('appointment'));
+  // }
 
 
 });
