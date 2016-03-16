@@ -11,6 +11,15 @@ apptApp.config(function($routeProvider) {
             .when('/', {
                 templateUrl : 'main-page.html',
             })
+            .when('/addAppointmentButton', {
+                templateUrl : 'new-appt.html',
+            })
+            .when('edit-appt.html', {
+                templateUrl : 'edit-appt.html',
+            })
+            .when('detail.html', {
+                templateUrl : 'detail.html',
+            })
           });
 
 //   ;(function(){
