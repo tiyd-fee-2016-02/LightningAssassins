@@ -8,17 +8,20 @@ apptApp.config(function($routeProvider) {
         $routeProvider
 
             // route for the home page
-            .when('/', {
+            .when('/', { //main page
+                templateUrl : 'main-page.html',
+            }) //plus sign on main page
+            .when('/AddNewAppointment',  {
+                templateUrl : 'new-appt.html',
+            }) // < button on new appt page
+            .when('/Main', {
                 templateUrl : 'main-page.html',
             })
-            .when('/addAppointmentButton', {
-                templateUrl : 'new-appt.html',
-            })
-            .when('edit-appt.html', {
-                templateUrl : 'edit-appt.html',
-            })
-            .when('detail.html', {
+            .when('/Details', {
                 templateUrl : 'detail.html',
+            })
+            .when('/Edit', {
+                templateUrl : 'edit-appt.html',
             })
           });
 
